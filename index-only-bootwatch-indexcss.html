@@ -1,0 +1,613 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<title>DealsCandy - Hot Deals</title>
+<!-- meta name="viewport" content="width=device-width, initial-scale=1" -->
+<!-- disbale zoom on mobile web pages -->
+<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no" />
+
+<!-- Material Design fonts -->
+<link rel="stylesheet" type="text/css" href="http://fonts.googleapis.com/css?family=Roboto:300,400,500,700">
+<link rel="stylesheet" type="text/css" href="http://fonts.googleapis.com/icon?family=Material+Icons">
+
+<!-- <link rel="stylesheet"	href="css/bootstrap.css"	media="screen"> -->
+<!-- <link rel="stylesheet" href="https://blackrockdigital.github.io/startbootstrap-simple-sidebar/css/bootstrap.min.css"> -->
+
+<!-- https://bootswatch.com/spacelab/ -->
+<link rel="stylesheet" href="https://bootswatch.com/spacelab/bootstrap.css">
+<!-- <link rel="stylesheet" href="css/bootswatch.min.css"> -->
+<link	href="css/styles.css"	rel="stylesheet">
+<link	href="css/dcm.css"	rel="stylesheet">
+<link	href="index.css"	rel="stylesheet">
+<link	href="sidebar/css/simple-sidebar.css"	rel="stylesheet">
+<!-- <link rel="stylesheet" href="https://blackrockdigital.github.io/startbootstrap-simple-sidebar/css/simple-sidebar.css"> -->
+
+<link rel="stylesheet" type="text/css"	href="flaticons/flaticon.css">
+<link rel="stylesheet" type="text/css"	href="bh/icons.css">
+<link rel="stylesheet" type="text/css"	href="bh/bh.css">
+
+<!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
+<!--[if lt IE 9]>
+      <script src="../bower_components/html5shiv/dist/html5shiv.js"></script>
+      <script src="../bower_components/respond/dest/respond.min.js"></script>
+    <![endif]-->
+<link	href="http://maxcdn.bootstrapcdn.com/font-awesome/4.1.0/css/font-awesome.min.css"	rel="stylesheet">
+
+<!-- Bootstrap Material Design -->
+  <!-- <link rel="stylesheet" type="text/css" href="material-design/bootstrap-material-design.css">
+  <link rel="stylesheet" type="text/css" href="material-design/ripples.min.css"> -->
+
+</head>
+<body>
+	<!-- <div id="wrapper"  class="toggled"> -->
+	<div id="wrapper">
+		<!-- Sidebar -->
+		<div id="sidebar-wrapper">
+			<ul class="sidebar-nav">
+				<li class="sidebar-brand"><a href="" id="newdeals"><i
+						class="flaticon-dwelling1"></i></a></li>
+				<li><a href="" id="hotdeals"><span class="flaticon-fire19"></span>
+						Hots Deals</a></li>
+				<li><a href="" id="Stores"><span class="flaticon-shop3"></span>
+						Stores</a></li>
+				<li><a href="" id="manage"><i class="flaticon-machine2"></i>
+						Manage Categories</a></li>
+				<li><a href="" id="all" data-name="All Categories"><i
+						class="fa fa-reorder"></i> All Categories</a></li>
+				<li><a href="" id="computers"><i
+						class="flaticon-computer73"></i> Computers</a></li>
+				<li><a href="" id="electronics"><i
+						class="flaticon-electronics1"></i> Electronics</a></li>
+				<li><a href="" id="cell-phones"><i
+						class="flaticon-smartphone1"></i> Cell Phones</a></li>
+				<li><a href="" id="tablets"><i class="flaticon-tablet"></i>
+						IPads & Tablets</a></li>
+				<li><a href="" id="creditcards"><i class="flaticon-mastercard4"></i>
+						Credit Cards</a></li>
+				<li><a href="" id="cameras"><i class="flaticon-photo8"></i>
+						Cameras</a></li>
+				<li><a href="" id="kids-babies-toys"><i class="flaticon-kids1"></i>
+						Kids, Babies & Toys</a></li>
+				<li><a href="" id="jewelry"><i class="flaticon-heart80"></i>
+						Jewelry</a></li>
+				<li><a href="" id="home-garden-tools"><i
+						class="flaticon-wrench22"></i> Home, Garden & Tools</a></li>
+				<li><a href="" id="restaurants"><i class="flaticon-plate7"></i>
+						Restaurants</a></li>
+				<li><a href="" id="softwares"><i class="flaticon-software1"></i>
+						Softwares</a></li>
+				<li><a href="" id="travel-sports"><i
+						class="flaticon-traveler"></i> Travel & Sports</a></li>
+				<li><a href="" id="tv"><i class="flaticon-television4"></i>
+						TV</a></li>
+				<li><a href="" id="video-games-consoles"><i
+						class="flaticon-joystick10"></i> Video Games & Consoles</a></li>
+				<li><a href="" id="watches"><i class="flaticon-wristwatch8"></i>
+						Watches</a></li>
+				<li>&nbsp;</li>
+			</ul>
+		</div>
+		<div class="navbar navbar-inverse navbar-fixed-top">
+			<div class="navbar-header">
+				<button type="button" class="navbar-toggle">
+					<span class="icon-bar"></span>
+					<span class="icon-bar"></span>
+					<span	class="icon-bar"></span>
+				</button>
+				<a class="navbar-brand" href="#">ng2-deals</a>
+			</div>
+			<div class="collapse navbar-collapse" id="bs-example-navbar-collapse-2">
+	       <ul class="nav navbar-nav">
+	         <li class="active"><a href="#">Hot Deals <span class="sr-only">(current)</span></a></li>
+	         <li><a href="#">New Deals</a></li>
+	         <li class="dropdown">
+	           <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">Categories <span class="caret"></span></a>
+	           <ul class="dropdown-menu" role="menu">
+	             <li><a href="#">Computers</a></li>
+	             <li><a href="#">Electronics</a></li>
+	             <li><a href="#">Cellphones</a></li>
+	             <li class="divider"></li>
+	             <li><a href="#">Separated link</a></li>
+	           </ul>
+	         </li>
+	       </ul>
+				 <!-- <ul class="nav navbar-nav navbar-right">
+	         <li> <a href="#">
+          <span class="flaticon-magnifier13"></span>
+        </a></li>
+	       </ul> -->
+			 <!--
+				 <input type="text" id="search-deals" class="typeahead form-control" placeholder="Search Deals"  autocomplete="off"> -->
+	     </div>
+	 </div>
+		<!-- Page Content -->
+	        <div id="page-content-wrapper">
+									<div class="container-fluid" style="padding-left:30px;padding-right:15px">
+
+										<div class="row">
+											<div class="col-sx-12 col-sm-12 col-md-12 col-lg-12" style="padding-left:0px">
+														<input type="text" class="typeahead form-control" placeholder="Search Deals"  autocomplete="off">
+											</div>
+										</div>
+									 	<div class="row">
+											<div class="col-sx-12 col-sm-12 col-md-12 col-lg-12" style="padding-left:0px">
+												<ul class="breadcrumb" style="margin-bottom: 5px;">
+													<li><a href="#" id="all">All Categories</a></li>
+													<li><a href="#" id="computers">Computers [<i class="fa fa-desktop"></i>]
+													</a></li>
+													<li class="active">Laptops [<i class="fa fa-laptop"></i>]
+													</li>
+												</ul>
+											</div>
+										</div>
+
+											<!-- <div class="row">
+												<div class="col-sx-12 col-sm-12 col-md-12 col-lg-8"> -->
+											<div class="row">											
+												<div class="col-sx-12 col-sm-6 col-md-4 col-lg-4" style="padding-left:0px">
+									        <!-- <div class="well infobox"> -->
+														<div class="jumbotron">
+														<div class="row">
+													<div class="col-xs-3 col-sm-4 col-md-3 col-lg-2">
+													<div class="row">
+															<span><img class="img-responsive img-rounded" src="http://cdn.bensimages.com/deals/2016/01/22/11/apple-ipad-mini-w-retina-img71162m.jpg" alt=""></span>
+													</div>
+													</div>
+													<div class="col-xs-9 col-sm-8 col-md-9 col-lg-10">
+														<div class="row">
+															<div class="product-details">
+																<h5 class="deal-title">
+																<strong>Apple iPad mini w/ Retina Display 16GB Wi-Fi Tablet</strong>
+																</h5>
+															</div>
+														</div>
+														<div class="row">
+																<div class="product-details">
+																		<span class="price">$200.0</span>
+																				<span class="original-price">$399.0</span>
+																				<span class="savings">
+																					Save 50%
+																				</span>
+															</div>
+																<div class="product-details">
+																<span class="shipping">
+																		Free Shipping
+																</span>
+															</div>
+																<!-- <div class="product-details">
+																	<div class="coupon-text">
+																		<span class="expiry">(Published on Mon Apr 25 04:37:15 EDT 2016)</span>
+																	</div>
+																<div class="coupon-text">
+																	<span class="expiry">Categories: all,computers,tablets</span>
+																</div>
+																<div class="coupon-text">
+																	<span class="expiry">Type: VANILA</span>
+																</div>
+																<div class="coupon-text">
+																	<span class="expiry">Hotness: </span>
+																</div>
+															</div> -->
+														</div>
+													</div>
+													</div>
+									        </div>
+									      </div>
+												<div class="col-sx-12 col-sm-6 col-md-4 col-lg-4" style="padding-left:0px">
+									        <!-- <div class="well infobox"> -->
+														<div class="jumbotron">
+														<div class="row">
+													<div class="col-xs-3 col-sm-4 col-md-3 col-lg-2">
+													<div class="row">
+															<span><img class="img-responsive img-rounded" src="http://cdn.bensimages.com/deals/2016/01/22/11/apple-ipad-mini-w-retina-img71162m.jpg" alt=""></span>
+													</div>
+													</div>
+													<div class="col-xs-9 col-sm-8 col-md-9 col-lg-10">
+														<div class="row">
+															<div class="product-details">
+																<h5 class="deal-title">
+																<strong>Apple iPad mini w/ Retina Display 16GB Wi-Fi Tablet</strong>
+																</h5>
+															</div>
+														</div>
+														<div class="row">
+																<div class="product-details">
+																		<span class="price">$200.0</span>
+																				<span class="original-price">$399.0</span>
+																				<span class="savings">
+																					Save 50%
+																				</span>
+															</div>
+																<div class="product-details">
+																<span class="shipping">
+																		Free Shipping
+																</span>
+															</div>
+																<!-- <div class="product-details">
+																	<div class="coupon-text">
+																		<span class="expiry">(Published on Mon Apr 25 04:37:15 EDT 2016)</span>
+																	</div>
+																<div class="coupon-text">
+																	<span class="expiry">Categories: all,computers,tablets</span>
+																</div>
+																<div class="coupon-text">
+																	<span class="expiry">Type: VANILA</span>
+																</div>
+																<div class="coupon-text">
+																	<span class="expiry">Hotness: </span>
+																</div>
+															</div> -->
+														</div>
+													</div>
+													</div>
+									        </div>
+									      </div>
+
+												<div class="col-sx-12 col-sm-6 col-md-4 col-lg-4" style="padding-left:0px">
+									        <!-- <div class="well infobox"> -->
+														<div class="jumbotron">
+														<div class="row">
+													<div class="col-xs-3 col-sm-4 col-md-3 col-lg-2">
+													<div class="row">
+															<span><img class="img-responsive img-rounded" src="http://cdn.bensimages.com/deals/2016/01/22/11/apple-ipad-mini-w-retina-img71162m.jpg" alt=""></span>
+													</div>
+													</div>
+													<div class="col-xs-9 col-sm-8 col-md-9 col-lg-10">
+														<div class="row">
+															<div class="product-details">
+																<h5 class="deal-title">
+																<strong>Apple iPad mini w/ Retina Display 16GB Wi-Fi Tablet</strong>
+																</h5>
+															</div>
+														</div>
+														<div class="row">
+																<div class="product-details">
+																		<span class="price">$200.0</span>
+																				<span class="original-price">$399.0</span>
+																				<span class="savings">
+																					Save 50%
+																				</span>
+															</div>
+																<div class="product-details">
+																<span class="shipping">
+																		Free Shipping
+																</span>
+															</div>
+																<!-- <div class="product-details">
+																	<div class="coupon-text">
+																		<span class="expiry">(Published on Mon Apr 25 04:37:15 EDT 2016)</span>
+																	</div>
+																<div class="coupon-text">
+																	<span class="expiry">Categories: all,computers,tablets</span>
+																</div>
+																<div class="coupon-text">
+																	<span class="expiry">Type: VANILA</span>
+																</div>
+																<div class="coupon-text">
+																	<span class="expiry">Hotness: </span>
+																</div>
+															</div> -->
+														</div>
+													</div>
+													</div>
+									        </div>
+									      </div>
+												<div class="col-sx-12 col-sm-6 col-md-4 col-lg-4" style="padding-left:0px">
+									        <!-- <div class="well infobox"> -->
+														<div class="jumbotron">
+														<div class="row">
+													<div class="col-xs-3 col-sm-4 col-md-3 col-lg-2">
+													<div class="row">
+															<span><img class="img-responsive img-rounded" src="http://cdn.bensimages.com/deals/2016/01/22/11/apple-ipad-mini-w-retina-img71162m.jpg" alt=""></span>
+													</div>
+													</div>
+													<div class="col-xs-9 col-sm-8 col-md-9 col-lg-10">
+														<div class="row">
+															<div class="product-details">
+																<h5 class="deal-title">
+																<strong>Apple iPad mini w/ Retina Display 16GB Wi-Fi Tablet</strong>
+																</h5>
+															</div>
+														</div>
+														<div class="row">
+																<div class="product-details">
+																		<span class="price">$200.0</span>
+																				<span class="original-price">$399.0</span>
+																				<span class="savings">
+																					Save 50%
+																				</span>
+															</div>
+																<div class="product-details">
+																<span class="shipping">
+																		Free Shipping
+																</span>
+															</div>
+																<!-- <div class="product-details">
+																	<div class="coupon-text">
+																		<span class="expiry">(Published on Mon Apr 25 04:37:15 EDT 2016)</span>
+																	</div>
+																<div class="coupon-text">
+																	<span class="expiry">Categories: all,computers,tablets</span>
+																</div>
+																<div class="coupon-text">
+																	<span class="expiry">Type: VANILA</span>
+																</div>
+																<div class="coupon-text">
+																	<span class="expiry">Hotness: </span>
+																</div>
+															</div> -->
+														</div>
+													</div>
+													</div>
+									        </div>
+									      </div>
+												<div class="col-sx-12 col-sm-6 col-md-4 col-lg-4" style="padding-left:0px">
+									        <!-- <div class="well infobox"> -->
+														<div class="jumbotron">
+														<div class="row">
+													<div class="col-xs-3 col-sm-4 col-md-3 col-lg-2">
+													<div class="row">
+															<span><img class="img-responsive img-rounded" src="http://cdn.bensimages.com/deals/2016/01/22/11/apple-ipad-mini-w-retina-img71162m.jpg" alt=""></span>
+													</div>
+													</div>
+													<div class="col-xs-9 col-sm-8 col-md-9 col-lg-10">
+														<div class="row">
+															<div class="product-details">
+																<h5 class="deal-title">
+																<strong>Apple iPad mini w/ Retina Display 16GB Wi-Fi Tablet</strong>
+																</h5>
+															</div>
+														</div>
+														<div class="row">
+																<div class="product-details">
+																		<span class="price">$200.0</span>
+																				<span class="original-price">$399.0</span>
+																				<span class="savings">
+																					Save 50%
+																				</span>
+															</div>
+																<div class="product-details">
+																<span class="shipping">
+																		Free Shipping
+																</span>
+															</div>
+																<!-- <div class="product-details">
+																	<div class="coupon-text">
+																		<span class="expiry">(Published on Mon Apr 25 04:37:15 EDT 2016)</span>
+																	</div>
+																<div class="coupon-text">
+																	<span class="expiry">Categories: all,computers,tablets</span>
+																</div>
+																<div class="coupon-text">
+																	<span class="expiry">Type: VANILA</span>
+																</div>
+																<div class="coupon-text">
+																	<span class="expiry">Hotness: </span>
+																</div>
+															</div> -->
+														</div>
+													</div>
+													</div>
+									        </div>
+									      </div>
+												<div class="col-sx-12 col-sm-6 col-md-4 col-lg-4" style="padding-left:0px">
+									        <!-- <div class="well infobox"> -->
+														<div class="jumbotron">
+														<div class="row">
+													<div class="col-xs-3 col-sm-4 col-md-3 col-lg-2">
+													<div class="row">
+															<span><img class="img-responsive img-rounded" src="http://cdn.bensimages.com/deals/2016/01/22/11/apple-ipad-mini-w-retina-img71162m.jpg" alt=""></span>
+													</div>
+													</div>
+													<div class="col-xs-9 col-sm-8 col-md-9 col-lg-10">
+														<div class="row">
+															<div class="product-details">
+																<h5 class="deal-title">
+																<strong>Apple iPad mini w/ Retina Display 16GB Wi-Fi Tablet</strong>
+																</h5>
+															</div>
+														</div>
+														<div class="row">
+																<div class="product-details">
+																		<span class="price">$200.0</span>
+																				<span class="original-price">$399.0</span>
+																				<span class="savings">
+																					Save 50%
+																				</span>
+															</div>
+																<div class="product-details">
+																<span class="shipping">
+																		Free Shipping
+																</span>
+															</div>
+																<!-- <div class="product-details">
+																	<div class="coupon-text">
+																		<span class="expiry">(Published on Mon Apr 25 04:37:15 EDT 2016)</span>
+																	</div>
+																<div class="coupon-text">
+																	<span class="expiry">Categories: all,computers,tablets</span>
+																</div>
+																<div class="coupon-text">
+																	<span class="expiry">Type: VANILA</span>
+																</div>
+																<div class="coupon-text">
+																	<span class="expiry">Hotness: </span>
+																</div>
+															</div> -->
+														</div>
+													</div>
+													</div>
+									        </div>
+									      </div>
+												<div class="col-sx-12 col-sm-6 col-md-4 col-lg-4" style="padding-left:0px">
+									        <!-- <div class="well infobox"> -->
+														<div class="jumbotron">
+														<div class="row">
+													<div class="col-xs-3 col-sm-4 col-md-3 col-lg-2">
+													<div class="row">
+															<span><img class="img-responsive img-rounded" src="http://cdn.bensimages.com/deals/2016/01/22/11/apple-ipad-mini-w-retina-img71162m.jpg" alt=""></span>
+													</div>
+													</div>
+													<div class="col-xs-9 col-sm-8 col-md-9 col-lg-10">
+														<div class="row">
+															<div class="product-details">
+																<h5 class="deal-title">
+																<strong>Apple iPad mini w/ Retina Display 16GB Wi-Fi Tablet</strong>
+																</h5>
+															</div>
+														</div>
+														<div class="row">
+																<div class="product-details">
+																		<span class="price">$200.0</span>
+																				<span class="original-price">$399.0</span>
+																				<span class="savings">
+																					Save 50%
+																				</span>
+															</div>
+																<div class="product-details">
+																<span class="shipping">
+																		Free Shipping
+																</span>
+															</div>
+																<!-- <div class="product-details">
+																	<div class="coupon-text">
+																		<span class="expiry">(Published on Mon Apr 25 04:37:15 EDT 2016)</span>
+																	</div>
+																<div class="coupon-text">
+																	<span class="expiry">Categories: all,computers,tablets</span>
+																</div>
+																<div class="coupon-text">
+																	<span class="expiry">Type: VANILA</span>
+																</div>
+																<div class="coupon-text">
+																	<span class="expiry">Hotness: </span>
+																</div>
+															</div> -->
+														</div>
+													</div>
+													</div>
+									        </div>
+									      </div>
+												<!-- <div class="col-sx-12 col-sm-6 col-md-4 col-lg-4">
+									        <div class="well infobox">
+									          <p><em>Material Design for Bootstrap</em> is a theme for Bootstrap 3 which lets you use the new
+									            <a href="http://www.google.com/design/spec/material-design/">Google Material Design</a> in your favorite front-end framework.
+									          </p>
+
+									          <p>If you like this project you can support me by donating something on Gittip, starring this repository, or
+									            <a href="https://github.com/FezVrasta/bootstrap-material-design/issues">reporting bugs and ideas</a>.</p>
+
+									          <p>Read more about <em>Material Design for Bootstrap</em>
+									            <a href="https://github.com/FezVrasta/bootstrap-material-design">at the Github page</a>.</p>
+
+									          <a href="https://github.com/FezVrasta/bootstrap-material-design/archive/master.zip" class="btn btn-sup btn-material-pink btn-raised">
+									            <i class="material-icons">file_download</i>
+									            <span>DOWNLOAD</span>
+									          </a>
+									          <a href="https://www.gittip.com/FezVrasta/" class="btn btn-sup btn-material-brown">
+									            <i class="material-icons">favorite_border</i>
+									            <span>GITTIP</span>
+									          </a>
+									          <a href="https://github.com/FezVrasta/bootstrap-material-design/issues" class="btn btn-sup btn-material-deeppurple">
+									            <i class="material-icons">info_outline</i>
+									            <span>ISSUES</span>
+									          </a>
+									        </div>
+									      </div> -->
+
+
+
+												<!-- <div class="col-sx-12 col-sm-6 col-md-4 col-lg-4">
+													<div class="jumbotron">
+				  									<p>This is a simple hero unit, a simple jumbotron-style</p>
+														<p><a class="btn btn-primary btn-lg">Learn more</a></p>
+													</div>
+	            					</div>
+												<div class="col-sx-12 col-sm-6 col-md-4 col-lg-4">
+													<div class="jumbotron">
+				  									<p>This is a simple hero unit, a simple jumbotron-style</p>
+														<p><a class="btn btn-primary btn-lg">Learn more</a></p>
+													</div>
+	            					</div>
+												<div class="col-sx-12 col-sm-6 col-md-4 col-lg-4">
+													<div class="jumbotron">
+				  									<p>This is a simple hero unit, a simple jumbotron-style</p>
+														<p><a class="btn btn-primary btn-lg">Learn more</a></p>
+													</div>
+	            					</div>
+												<div class="col-sx-12 col-sm-6 col-md-4 col-lg-4">
+													<div class="jumbotron">
+				  									<p>This is a simple hero unit, a simple jumbotron-style</p>
+														<p><a class="btn btn-primary btn-lg">Learn more</a></p>
+													</div>
+	            					</div>
+												<div class="col-sx-12 col-sm-6 col-md-4 col-lg-4">
+													<div class="jumbotron">
+				  									<p>This is a simple hero unit, a simple jumbotron-style</p>
+														<p><a class="btn btn-primary btn-lg">Learn more</a></p>
+													</div>
+	            					</div>
+												<div class="col-sx-12 col-sm-6 col-md-4 col-lg-4">
+													<div class="jumbotron">
+														<p>This is a simple hero unit, a simple jumbotron-style</p>
+														<p><a class="btn btn-primary btn-lg">Learn more</a></p>
+													</div>
+												</div>
+												<div class="col-sx-12 col-sm-6 col-md-4 col-lg-4">
+													<div class="jumbotron">
+														<p>This is a simple hero unit, a simple jumbotron-style</p>
+														<p><a class="btn btn-primary btn-lg">Learn more</a></p>
+													</div>
+												</div>
+												<div class="col-sx-12 col-sm-6 col-md-4 col-lg-4">
+													<div class="jumbotron">
+														<p>This is a simple hero unit, a simple jumbotron-style</p>
+														<p><a class="btn btn-primary btn-lg">Learn more</a></p>
+													</div>
+												</div> -->
+											</div>
+										<!-- </div> -->
+<!--
+										<div class="col-lg-4">
+											<div class="jumbotron">
+												<p>This is a simple hero unit, a simple jumbotron-style</p>
+												<p><a class="btn btn-primary btn-lg">Learn more</a></p>
+											</div>
+											<div class="jumbotron">
+												<p>This is a simple hero unit, a simple jumbotron-style</p>
+												<p><a class="btn btn-primary btn-lg">Learn more</a></p>
+											</div>
+										</div>
+									</div> -->
+
+										</div>
+										<!-- container end -->
+									</div>
+<!-- /#page-content-wrapper -->
+
+	</div>
+	<script src="https://code.jquery.com/jquery-1.10.2.min.js"></script>
+	<script	src="js/bootstrap.min.js"></script>
+	<script	src="js/bootswatch.js"></script>
+	<script	src="autohide/jquery.bootstrap-autohidingnavbar.js"></script>
+	<script	src="lazyload/jquery.lazyload.min.js"></script>
+	<script	src="js/dcm.js"></script>
+		<!-- Menu Toggle Script -->
+    <!-- <script>
+    $(".navbar-toggle").click(function(e) {
+        e.preventDefault();
+        $("#wrapper").toggleClass("toggled");
+    });
+    </script> -->
+
+		<!-- <script type="text/javascript">
+			$("#search-deals").hide();
+
+			$(".navbar-toggle").click(function(e) {
+					e.preventDefault();
+					$("#wrapper").toggleClass("toggled");
+			});
+		</script> -->
+</body>
+</html>

@@ -1,0 +1,139 @@
+@font-face {
+	font-family: "Flaticon";
+	src: url("flaticon.eot");
+	src: url("flaticon.eot#iefix") format("embedded-opentype"),
+	url("flaticon.woff") format("woff"),
+	url("flaticon.ttf") format("truetype"),
+	url("flaticon.svg") format("svg");
+	font-weight: normal;
+	font-style: normal;
+}
+[class^="flaticon-"]:before, [class*=" flaticon-"]:before,
+[class^="flaticon-"]:after, [class*=" flaticon-"]:after {   
+	font-family: Flaticon;
+        font-size: 20px;
+font-style: normal;
+margin-left: 20px;
+}.flaticon-apple:before {
+	content: "\e000";
+}
+.flaticon-apple4:before {
+	content: "\e001";
+}
+.flaticon-baby112:before {
+	content: "\e002";
+}
+.flaticon-computer73:before {
+	content: "\e003";
+}
+.flaticon-desktop:before {
+	content: "\e004";
+}
+.flaticon-diamond25:before {
+	content: "\e005";
+}
+.flaticon-dwelling1:before {
+	content: "\e006";
+}
+.flaticon-electronics1:before {
+	content: "\e007";
+}
+.flaticon-fire19:before {
+	content: "\e008";
+}
+.flaticon-hard10:before {
+	content: "\e009";
+}
+.flaticon-heart80:before {
+	content: "\e00a";
+}
+.flaticon-home115:before {
+	content: "\e00b";
+}
+.flaticon-home44:before {
+	content: "\e00c";
+}
+.flaticon-house4:before {
+	content: "\e00d";
+}
+.flaticon-imac:before {
+	content: "\e00e";
+}
+.flaticon-joystick10:before {
+	content: "\e00f";
+}
+.flaticon-kids1:before {
+	content: "\e010";
+}
+.flaticon-laptop12:before {
+	content: "\e011";
+}
+.flaticon-laptop65:before {
+	content: "\e012";
+}
+.flaticon-machine2:before {
+	content: "\e013";
+}
+.flaticon-magnifier13:before {
+	content: "\e014";
+}
+.flaticon-magnifying7:before {
+	content: "\e015";
+}
+.flaticon-mastercard4:before {
+	content: "\e016";
+}
+.flaticon-monitor1:before {
+	content: "\e017";
+}
+.flaticon-photo8:before {
+	content: "\e018";
+}
+.flaticon-plate7:before {
+	content: "\e019";
+}
+.flaticon-print:before {
+	content: "\e01a";
+}
+.flaticon-printer11:before {
+	content: "\e01b";
+}
+.flaticon-shop3:before {
+	content: "\e01c";
+}
+.flaticon-smartphone1:before {
+	content: "\e01d";
+}
+.flaticon-smartphone11:before {
+	content: "\e01e";
+}
+.flaticon-software1:before {
+	content: "\e01f";
+}
+.flaticon-tablet:before {
+	content: "\e020";
+}
+.flaticon-television4:before {
+	content: "\e021";
+}
+.flaticon-traveler:before {
+	content: "\e022";
+}
+.flaticon-universal4:before {
+	content: "\e023";
+}
+.flaticon-vintage6:before {
+	content: "\e024";
+}
+.flaticon-wide6:before {
+	content: "\e025";
+}
+.flaticon-widescreen:before {
+	content: "\e026";
+}
+.flaticon-wrench22:before {
+	content: "\e027";
+}
+.flaticon-wristwatch8:before {
+	content: "\e028";
+}

@@ -1,0 +1,23 @@
+.quickMessage {position: fixed; top:43px; background: rgba(51,68,85,0.75); color:white; padding:15px; font-size:17px; font-weight: 600; z-index:10; text-align:center; width:100%; display:none;}
+
+.quickLink {
+	min-width: 140px;
+	display: block;
+	margin-left: -70px;
+	text-align: center;
+	line-height: 43px;
+	position: fixed;
+	top: 50px;
+	left: 50%;
+	display: none;
+	background:rgba(0,0,0,0.8);
+	height: 44px;
+	border-radius: 22px;
+	z-index: 10;
+	padding: 0 15px;
+	color: white;
+}
+
+.quickLink:active{
+	background:rgba(0,0,0,0.6);
+}

@@ -75,3 +75,7 @@ footer {
 .main .page-header {
   margin-top: 0;
 }
+
+.jumbotron {
+  border-radius: 5px
+}

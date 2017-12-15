@@ -21,3 +21,8 @@ $("#back-to-content").scroll(function(e) {
   e.preventDefault();
   $("#wrapper").toggleClass("toggled");
 });
+$("#search").click(function(e) {
+  e.preventDefault();
+  console.log("toggle");
+  $(".search-box").toggleClass("toggled");
+});
